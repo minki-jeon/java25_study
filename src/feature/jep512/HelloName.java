@@ -2,10 +2,10 @@
 /**
  * <pre>
  * packageName    : feature.jep512
- * fileName       : ScannerIO
+ * fileName       : HelloName
  * author         : minki-jeon
  * date           : 2025-09-19 (금)
- * description    :
+ * description    : Scanner(System.in) -> IO.readln()
  * ===========================================================
  * DATE                     AUTHOR           NOTE
  * -----------------------------------------------------------

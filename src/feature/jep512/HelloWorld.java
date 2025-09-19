@@ -6,7 +6,7 @@ import static java.lang.IO.println;
  * fileName       : HelloWorld
  * author         : minki-jeon
  * date           : 2025-09-19 (금)
- * description    :
+ * description    : main()의 Class 생략
  * ===========================================================
  * DATE                     AUTHOR           NOTE
  * -----------------------------------------------------------

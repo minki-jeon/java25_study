@@ -6,7 +6,7 @@ import static java.lang.IO.println;
  * fileName       : FileProcessor
  * author         : minki-jeon
  * date           : 2025-09-19 (금)
- * description    :
+ * description    : 자동 import와 IO helper 활용
  * ===========================================================
  * DATE                     AUTHOR           NOTE
  * -----------------------------------------------------------
