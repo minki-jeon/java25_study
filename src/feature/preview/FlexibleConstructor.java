@@ -19,18 +19,19 @@ class Person {
     private final String email;
 
     public Person(String name, int age, String rawEmail) {
-        // 생성자 내부에서 validate(검증)과 같은 복잡한 로직 수행 가능
+
+        // 생성자 내부에서 필드 초기화 전에 validate(검증)과 같은 복잡한 로직 수행 가능
         if (name == null || name.trim().isEmpty()) {
             throw new IllegalArgumentException("Name cannot be null or empty");
         }
 
-        // 이메일 정규화
+        // 이메일 정규화 (데이터 변환)
         String normalizedEmail = rawEmail.toLowerCase().trim();
         if (!normalizedEmail.contains("@")) {
             normalizedEmail = normalizedEmail + "@gmail.com";
         }
 
-        // 필드 초기화
+        // 로직 수행 이후 필드 초기화
         this.name = name.trim();
         this.age = age;
         this.email = normalizedEmail;
